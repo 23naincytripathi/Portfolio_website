@@ -1,0 +1,33 @@
+@media screen and (max-width: 964px) {
+  header {
+    margin-bottom: 20px;
+  }
+  .nav-ul {
+    display: none;
+    /* display: block; */
+  }
+
+  .toggle-button {
+    display: block;
+  }
+
+  .nav-links.active {
+    display: block;
+  }
+  /* .hero {
+    padding: 80px;
+  } */
+  .main {
+    flex-direction: column;
+  }
+  .about-text {
+    /* width: 70%; */
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 452px) {
+  .class {
+    font-size: 1.8rem;
+  }
+}

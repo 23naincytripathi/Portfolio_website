@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio Website</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- css  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+sans:ital,wgt@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600;1,700&dispaly=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/
+        font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT
+        92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <!-- navigation start -->
+    <header>
+      <h2 class="logo">Portfo<span class="red">lio</span></h2>
+      <nav class="nav-links active" id="navLinks">
+        <ul class="nav-ul left-nav">
+          <li><a href="#home">Home</a></li>
+
+          <li><a href="#about">About Us</a></li>
+
+          <li><a href="#servies">Services</a></li>
+
+          <li><a href="#contact">Contact me</a></li>
+
+          <li><a href="#social">Social</a></li>
+          <li>
+            <a href="#" class="Btn" style="color:white;">Subscribe</a>
+          </li>
+        </ul>
+      </nav>
+      
+      <a
+        href="javascript:void(0);"
+        class="toggle-button"
+        onclick="toggleNav()"
+        style=" color:aliceblue"
+      >
+        &#9776;
+      </a>
+    </header>
+    <div class="mobile-btn  " id="mobile-nav">
+      <ul class="mobile-ul">
+          <li class="mobile-li"><a href="#home">Home</a></li>
+
+          <li class="mobile-li"><a href="#about">About Us</a></li>
+
+          <li class="mobile-li"><a href="#servies">Services</a></li>
+
+          <li class="mobile-li"><a href="#contact">Contact me</a></li>
+
+          <li class="mobile-li"><a href="#social">Social</a></li>
+          <li class="mobile-li">
+            <a href="#" class="Btn" ">Subscribe</a>
+          </li>
+        </ul>
+    </div>
+    
+        <!-----hero Section Start----->
+        <div class="hero" id="home"></div>
+
+            <div  class="hero-content">
+                <!-- <h4>Hello, my name is</h4> -->
+
+                <h1 class="name" style="color:white;"> Naincy <span class="red">  Tripathi</span></h1>
+
+                <h3 class="degis" style="color:white;">I'm a Web Developer.</h3>
+
+                <div class="newslatter">
+                    <form>
+                        <input type="email" name="email" id="mail" placeholder="Enter your Email">
+                        <input type="submit" name="submit" value="Lets Start">
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+        <!----About section start---->
+        <section id="about" class="about">
+            <div class="main">
+                <img class="about-img" src="img/about.jpeg" alt="about-img" width="500" height="500">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <h5>Developer <span class="red">& Designer</span></h5>
+                    <p>I am a student of  Btech Information Technology , now I am learning web Developing. I can provide clean code and pixel perfect design. I also 
+                        make the website more & more interactive with web animation. I can provide clean code and pixel perfect design. I also make the website more 
+                        & more interactive with web animation. A respopnsive design makes your website accesible to all users, regardless of their device.
+                    </p>
+                    <!-- <a href="#" class="btn"></a> -->
+                    <button type="button">Let's Talk</button>
+                </div>
+            </div>
+        </section>
+        <!----service Section start---->
+            <div id="servies" class="service">
+                <div class="title">
+                    <h2 style="color:white;">My Services</h2>
+                </div>
+
+                <div class="box">
+                    <div class="card">
+                        <i class='bx bx-doughnut-chart'></i>
+                        <h5>Front End</h5>
+                         <div class="pra">
+                                <p>Is It Hard To Become a Front-End Developer? Because front-end development learning resources are
+                                     readily available, it's never been easier to become a front-end developer—anyone with a computer 
+                                     can work on their own projects.
+                                </p>
+                                <p style="text-align: center;">
+                                    <a class="button"   href="#">Read More</a>
+                                </p>
+                            </div>
+                    </div>
+                    <div class="card">
+                        
+                        <i class='bx bx-diamond'></i>
+                        <h5>Web Development</h5>
+                            <div class="pra">
+                                <p>Every website should be built with two primary goals: Firstly,it needs
+                                    to work across all devices. Secondly, it needs to be fast as posible.<br><br><br><br>
+                                </p>
+                                <p style="text-align: center;">
+                                    <a class="button"   href="#">Read More</a>
+                                </p>
+                            </div>
+                    </div>
+                    <div class="card">
+                        
+                        <i class='bx bxl-graphql'></i>
+                        <h5>Back End</h5>
+                            <div class="pra">
+                                <p>Back-end development means working on server-side software, which focuses on everything you can't see on a website. 
+                                    . Back-end developers ensure the website performs correctly, focusing on databases, back-end logic.
+                                </p>
+                                <p style="text-align: center;">
+                                    <a class="button"   href="#">Read More</a>
+                                </p>
+                            </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!----Contact Me----->
+            <div id="contact" class="contact-me">
+                <div class="title">
+                    <h2 style="color:white;">Contact-me</h2>
+                </div>
+                <p>Let Me Get You A Beautiful website. content maker ,cyber security,C and DSA</p>
+            
+                <a class="button-two" href="#">Hire Me</a>
+             </div>
+        </div>
+
+            <!----footer start---->
+            <footer id="social">
+                <p class="footer-one"> Naincy Tripathi</p>
+
+                <p class="footer-two">For more HTML, CSS, and coding tutorial - please give me review for Code organization and Readability:
+                </p>
+                <div class="social">
+                        <a href="https://www.facebook.com/"><i class='bx bxl-facebook-circle'></i></a>
+                        <a href="https://www.instagram.com/naincy848/"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://twitter.com/home?lang=en"><i class='bx bxl-twitter'></i></a>
+                        </div>
+                
+                    <p class="end"> copyRight By Naincy Tripathi</p>
+
+                </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
